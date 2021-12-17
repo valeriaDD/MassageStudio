@@ -103,3 +103,34 @@ button{
     border-radius: 10px;
     
 }
+
+
+.cardTitle2{
+    background-color: white;
+    width: 75vh;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.mainProgramare {
+    height: 950px;
+}
+
+.list-group > a{ 
+    background-color: #DBE2DA;
+}
+
+.list-group{ 
+    background-color: #DBE2DA;
+}
+
+.form-floating > .bi-calendar-date + .datepicker_input + label {
+    padding-left: 3.5rem;
+    z-index: 3;
+  }
