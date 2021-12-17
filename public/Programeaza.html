@@ -25,8 +25,6 @@
                 </ul>
 
                 <div class="col-md-3 mt-3 text-end">
-                    <button type="button" class="btn btn-outline-light btn-sm me-2"><img
-                            src="../Logs/2560px-Flag_of_Romania 1.png" alt="lng" class="img-fluid"></button>
                     <button type="button" class="btn btn-light">Programeaza-te</button>
                 </div>
             </header>
@@ -66,42 +64,81 @@
 
 
                             <div class="row align-self-center">
-                                <div class="cardTitle2">
-                                    <h3 class="h4 text-center"> Masaj Terapeutic - Coapse si Abdomen</h3>
+
+                                <div class="cardTitle2" style="margin-top:30px;">
+                                    <h3 class="h4 text-center p-3"> Masaj Terapeutic - Coapse si Abdomen</h3>
                                 </div>
                             </div>
+                            <form>
 
-                            <div class="row justify-content-md-center p-3">
+                                <div class="row justify-content-md-center p-3">
 
-                                <div class="col-3 d-flex">
-                                    <input class="form-control " type="text" placeholder="Nume">
+                                    <div class="col-3 d-flex">
+                                        <input class="form-control " type="text" placeholder="Nume">
+                                    </div>
+
+                                    <div class="col-3 d-flex">
+                                        <input class="form-control " type="text" placeholder="Prenume">
+                                    </div>
                                 </div>
 
-                                <div class="col-3 d-flex">
-                                    <input class="form-control " type="text" placeholder="Prenume">
+                                <div class="row justify-content-md-center p-3">
+
+                                    <div class="col-3 d-flex">
+                                        <input class="form-control " type="email" placeholder="Email">
+                                    </div>
+
+                                    <div class="col-3 d-flex">
+                                        <input class="form-control " type="text" placeholder="Nr telefon">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="row justify-content-md-center p-3">
 
-                                <div class="col-3 d-flex">
-                                    <input class="form-control " type="text" placeholder="Email">
+                                <div class="row justify-content-md-center p-3">
+                                    <div class="col-6 d-flex ">
+                                        <select class="form-select" title="Choose one of the following...">
+                                            <option value="4">Oricare</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
                                 </div>
 
-                                <div class="col-3 d-flex">
-                                    <input class="form-control " type="text" placeholder="Nr telefon">
+                                <div class="row justify-content-md-center p-3">
+                                    <div class="col-3 d-flex ">
+                                        <input type="date" class="datepicker_input form-control">
+                                    </div>
+
+                                    <div class="col-3 d-flex ">
+                                        <input type="time" class='form-control timepicker' min="09:00" max="19:00"
+                                            required>
+                                    </div>
+
+
+                                    <div class="row justify-content-around p-5">
+                                        <div class="col-6 ">
+                                            <div class="price">
+                                                300 MDL
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2 ">
+                                            <button type="submit" class="btn"> Rezerva </button>
+                                        </div>
+
+
+
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="input-group mb-4">
-                                <i class="bi bi-calendar-date input-group-text"></i>
-                                <input type="date" class="datepicker_input form-control" placeholder="Date input 3 placeholder" required aria-label="Date input 3 (using aria-label)">
-                              </div>
-
+                            </form>
 
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
 
 
@@ -110,75 +147,71 @@
 
 
 
-    </div>
+        <!-- Footer -->
 
+        <div class="footer">
+            <div class="d-flex justify-content-evenly">
 
+                <div class="col-4 align-self-center">
 
-    <!-- Footer -->
+                    <div class="footerHead">
+                        <h2 class="h2"><strong>Contacte:</strong></h2>
+                    </div>
 
-    <div class="footer">
-        <div class="d-flex justify-content-evenly">
+                    <div class="strada">
+                        <h5><strong>Strada:</strong> Chisinau, StradaAnumita 75/2</h5>
+                    </div>
 
-            <div class="col-4 align-self-center">
-
-                <div class="footerHead">
-                    <h2 class="h2"><strong>Contacte:</strong></h2>
+                    <div class="telefon">
+                        <h5><strong>Telefon:</strong> <a href="tel:+37360606060">+373 60 606 060</a></h5>
+                    </div>
+                    <div class="email">
+                        <h5><strong>Email:</strong> <a href="mailto: abc@example.com">Lotus@email.com</a></h5>
+                    </div>
                 </div>
 
-                <div class="strada">
-                    <h5><strong>Strada:</strong> Chisinau, StradaAnumita 75/2</h5>
+
+                <!-- HARTA LUATA DE PE NET -->
+
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Chisinau%20Kaufland%20DEcebal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-org.net">123movies</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 400px;
+                                width: 400px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net"></a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 400px;
+                                width: 400px;
+                            }
+                        </style>
+                    </div>
                 </div>
 
-                <div class="telefon">
-                    <h5><strong>Telefon:</strong> <a href="tel:+37360606060">+373 60 606 060</a></h5>
-                </div>
-                <div class="email">
-                    <h5><strong>Email:</strong> <a href="mailto: abc@example.com">Lotus@email.com</a></h5>
-                </div>
             </div>
-
-
-            <!-- HARTA LUATA DE PE NET -->
-
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=Chisinau%20Kaufland%20DEcebal&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                        href="https://123movies-org.net">123movies</a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 400px;
-                            width: 400px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net"></a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 400px;
-                            width: 400px;
-                        }
-                    </style>
-                </div>
-            </div>
-
         </div>
-    </div>
 
-    <!-- END Footer -->
-
+        <!-- END Footer -->
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

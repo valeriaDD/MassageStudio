@@ -134,3 +134,10 @@ button{
     padding-left: 3.5rem;
     z-index: 3;
   }
+
+  .price{
+
+    color: #90A58A;
+    font-size: 20px;
+    text-shadow: 1px 3px 4px;
+}
