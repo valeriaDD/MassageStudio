@@ -161,3 +161,13 @@ button{
     height: 18vw;
 }
 
+.card-img-top2{
+    object-fit: cover; 
+    width: 100%;
+    height: 25vw;
+}
+
+.mainNouatate{
+    background-color: #90A58A;
+}
+
