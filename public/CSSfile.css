@@ -94,13 +94,14 @@ button{
 
 .cardTitle{
     background-color: #DBE2DA;
-    width: 70vh;
+    width: 75vh;
     height: 98px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     border-radius: 10px;
+    margin-bottom: 30px;
     
 }
 
@@ -114,7 +115,7 @@ button{
     align-items: center;
     margin-top: 10px;
     border-radius: 10px;
-    margin-bottom: 30px;
+
 
 }
 
@@ -171,3 +172,8 @@ button{
     background-color: #90A58A;
 }
 
+.infoServicii{
+    height: 13rem;
+    overflow-y: auto;
+    font-size: 14px;
+}
